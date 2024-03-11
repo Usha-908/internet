@@ -1,9 +1,7 @@
-.option{
-}
+
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-     1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1em;
 }
 @media screen and (max-width: 600px) {
@@ -22,13 +20,13 @@
     .container {
         grid-template-columns: 1fr;
     }
-}
 .option {
     border-radius: 50%;
     font-size: 2em;
-    background: aqua;
-    color: blue;
+    background:pink;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
+}
 }
