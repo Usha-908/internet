@@ -11,7 +11,7 @@ const getMyname =async()=> {
     let name =await res.text();
     nameElement.textContent=name;
 }
-const postSurname =async() => {
+const postSurname =async() => { 
     let res=await fetch('http://127.0.01:3000/',{
         method:'POST',
         header:{
